@@ -9,8 +9,6 @@ int factorialDigitSum(int n) {
     for (int i = 1; i <= n; ++i) {
         factorial *= i;
     }
-
-    // Sum the digits
     std::string digits = factorial.str();
     int sum = 0;
     for (char c : digits) {
